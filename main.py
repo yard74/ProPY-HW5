@@ -4,7 +4,7 @@ from logger import logger
 path = os.path.join(os.getcwd(), 'logs.txt')
 
 
-# Тест работы генератора на простой функции:
+# Тест работы декоратора на простой функции:
 # @logger(path)
 # def summa(a, b):
 #     return a + b
